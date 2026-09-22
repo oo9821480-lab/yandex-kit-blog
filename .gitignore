@@ -1,0 +1,32 @@
+# secrets & env
+.env
+.env.*
+*.pem
+*credentials*
+*service_account*.json
+google_service_account.json
+
+# local dumps / caches
+*.xlsx
+*.zip
+sheet36_unz/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# large/local API dumps (optional noise)
+products.json
+variants.json
+files.json
+collections.json
+categories.json
+cat_detail.json
+cover_file.json
+store.json
+created_blog.json
+updated_blog.json
+variant_list.txt
+blog_titles.txt
+sheet36.csv
+*.bak
